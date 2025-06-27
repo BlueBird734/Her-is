@@ -1,7 +1,7 @@
 Create Table usuario (
 Email Varchar(100),
 Senha Varchar(10),
-Nome Varchar(50) primary key
+Nome Varchar(50)Â primaryÂ key
 )
 
 CREATE TABLE Herois ( 
@@ -10,14 +10,8 @@ Nome VARCHAR(100) NOT NULL,
 Data_nascimento DATE NOT NULL,
 Email Varchar(100),
 Telefone Varchar(10),
-Historia VARCHAR(200)
-);
-
-CREATE TABLE Voluntario ( 
-CPF CHAR(11) NOT NULL  PRIMARY KEY,  
-NOME VARCHAR(100) NOT NULL, 
 Endereco Varchar(50) NOT NULL,
-Telefone Varchar(20),
+HistoriaÂ VARCHAR(200)
 );
 
 CREATE TABLE local( 
